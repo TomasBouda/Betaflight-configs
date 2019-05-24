@@ -1,0 +1,171 @@
+# diff all
+
+# version
+# Betaflight / KAKUTEF4V2 (KTV2) 4.0.1 May  1 2019 / 21:54:53 (25f4a5ffe) MSP API: 1.41
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name KAKUTEF4V2
+manufacturer_id 
+mcu_id 004b002f574850112034354b
+signature 
+
+# name
+name NumberOne
+
+# resources
+
+# timer
+
+# dma
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature GPS
+feature ESC_SENSOR
+
+# beeper
+
+# beacon
+
+# map
+map ATRE1234
+
+# serial
+serial 3 2 115200 9600 0 115200
+serial 4 1024 115200 57600 0 115200
+serial 5 8192 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1825 2100 0 0
+aux 1 1 1 1825 2100 0 0
+aux 2 2 1 1350 1650 0 0
+aux 3 46 3 1800 2100 0 0
+aux 4 13 3 1300 1600 0 0
+aux 5 36 2 1825 2100 0 0
+
+# adjrange
+
+# rxrange
+rxrange 0 987 2011
+rxrange 1 987 2011
+rxrange 2 987 2011
+rxrange 3 987 2011
+
+# vtx
+
+# rxfail
+rxfail 3 h
+
+# display_name
+
+# master
+set min_check = 1010
+set max_check = 1990
+set rssi_channel = 16
+set motor_pwm_protocol = DSHOT1200
+set failsafe_delay = 5
+set current_meter = ESC
+set small_angle = 180
+set gps_provider = UBLOX
+set gps_sbas_mode = EGNOS
+set gps_rescue_initial_alt = 70
+set gps_rescue_descent_dist = 100
+set pid_process_denom = 1
+set osd_rssi_alarm = 35
+set osd_cap_alarm = 1000
+set osd_alt_alarm = 200
+set osd_vbat_pos = 14720
+set osd_rssi_pos = 14362
+set osd_tim_1_pos = 504
+set osd_tim_2_pos = 14743
+set osd_flymode_pos = 14712
+set osd_vtx_channel_pos = 0
+set osd_current_pos = 14731
+set osd_mah_drawn_pos = 14726
+set osd_gps_speed_pos = 14343
+set osd_gps_lon_pos = 14688
+set osd_gps_lat_pos = 14656
+set osd_gps_sats_pos = 14357
+set osd_home_dir_pos = 14348
+set osd_home_dist_pos = 14350
+set osd_altitude_pos = 14336
+set osd_warnings_pos = 14441
+set osd_esc_tmp_pos = 14738
+set osd_stat_max_dist = ON
+set osd_stat_battery = ON
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set vtx_channel = 8
+set vtx_power = 4
+set vtx_freq = 5880
+set vcd_video_system = NTSC
+
+# profile
+profile 0
+
+
+# profile
+profile 1
+
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 2
+
+# rateprofile
+rateprofile 0
+
+
+# rateprofile
+rateprofile 1
+
+set roll_rc_rate = 135
+set pitch_rc_rate = 135
+set roll_expo = 40
+set pitch_expo = 40
+set roll_srate = 73
+set pitch_srate = 73
+set yaw_srate = 75
+
+# rateprofile
+rateprofile 2
+
+
+# rateprofile
+rateprofile 3
+
+
+# rateprofile
+rateprofile 4
+
+
+# rateprofile
+rateprofile 5
+
+
+# restore original rateprofile selection
+rateprofile 1
+
+# save configuration
+save
+# 
